@@ -119,7 +119,7 @@ class PerpetuaFilter extends ColorFilter {
 
 // Amaro: Adds light to an image, with the focus on the centre
 class AmaroFilter extends ColorFilter {
-  AmaroFilter() : super(name: "Amaro", nameHindi:"अमाराॆ") {
+  AmaroFilter() : super(name: "Amaro", nameHindi:"अमारो") {
     subFilters.add(new SaturationSubFilter(0.3));
     subFilters.add(new BrightnessSubFilter(0.15));
   }
